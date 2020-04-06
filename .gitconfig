@@ -1,0 +1,13 @@
+[user]
+	name = Naoko Nishimura
+	email = naoko.nishimura1018@gmail.com
+	username = nnishimura
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true
+    ignorecase = true
+	precomposeunicode = true

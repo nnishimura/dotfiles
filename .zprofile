@@ -1,0 +1,1 @@
+/Users/nnishimura/.zprezto/runcoms/zprofile
