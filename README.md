@@ -8,6 +8,9 @@ dotfiles for macOS. Inspired by https://github.com/webpro/dotfiles
 See Makefile for more options.
 
 ```
-make npm
-make node-packages
+make all
 ```
+
+# ToDo
+
+python, rubyenv
