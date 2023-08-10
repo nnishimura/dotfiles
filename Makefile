@@ -2,13 +2,13 @@ NVM_DIR := $(HOME)/.nvm
 ZSH_DIR := $(HOME)/.oh-my-zsh
 ASDF_DIR := $(HOME)/.asdf
 
-all: brew git npm yarn node-packages zsh
+all: brew npm yarn node-packages zsh
 
 asdf:
 	if ! [ -d $(ASDF_DIR)/.git ]; then git clone https://github.com/asdf-vm/asdf.git ~/.asdf $(ASDF_DIR); fi
 
 brew:
-	is-executable brew || curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
 
 npm:
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
